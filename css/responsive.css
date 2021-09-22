@@ -1,0 +1,197 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+
+  .container-fluid img {
+    margin-left: -40px;
+  }
+  .navbar-light .navbar-toggler{
+    margin-right: 222px;
+  }
+  .navbar-nav {
+    margin-left: 50%;
+  }
+  .nav-item {
+    margin-left: 20px;
+  }
+  .img-fluid{
+    margin-left: 9px;
+  }
+  .blog-des h6 {
+    font-size: 22px;
+  }
+  .blog-des p {
+    font-size: 22px;
+  }
+  .blog-des span{
+    font-size: 22px;
+  }
+  .post h6{
+    font-size: 22px;
+  }
+  .post p {
+    font-size: 22px;
+  }
+  .box button {
+    width: 19%;
+    margin-left: 40%;
+  }
+
+
+
+
+
+
+
+
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /*CSS*/
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .container-fluid img{
+    margin-left: -50px;
+  }
+
+  .navbar-light .navbar-toggler{
+    margin-right: -32px;
+  }
+  .img-fluid{
+    margin-left: 6px;
+  }
+  .blog-des{
+    margin: 24px;
+  }
+  
+  .blog-des h6 {
+    margin-top: 70px;
+    margin-left: 20px;
+    color: #92a6c3;
+  }
+  .col-mid-6 {
+    width: 100%;
+  }
+  .post img{
+    margin: 22px;
+  }
+
+  .post h6 {
+    margin-left: 41px;
+  }
+  .post h3 {
+    font-size: 17px;
+    margin-left: 42px;
+  }
+  .post p {    
+    margin-left: 42px;
+  }
+  .mail {
+    height: 190px;
+  }
+  .mail h2 {
+    font-size: 18px;
+  }
+  .mail form input{
+    width: 50%;
+  }
+  .mail form i {
+    font-size: 13px;
+    position: absolute;
+    right: 25%;
+    top: 72%;
+  }
+  .box button {
+    width: 30%;
+    padding: 2%;
+    margin-left: 33%;
+    font-size: 16px;
+  }
+  .social{
+    width: 102%;
+  }
+  .left ul{
+    margin-left: -26px;
+  }
+  .left ul li a p {
+    margin-left: 20px;
+    margin-top: 0;
+  }
+  .right ul{
+    margin-right: 36px;
+    margin-top: -33px;
+  }
+  .right ul li{
+    margin-right: 14px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}
